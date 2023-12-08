@@ -1,0 +1,173 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+.responsive-container{
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  justify-content: center;
+}
+.add-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  min-width: 30vw;
+  margin: 20px;
+  height: 85vh;
+}
+.task-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 972px;
+}
+
+.heading{
+  color: #171f46;
+  font-weight: bold;
+  font-size: 32px;  
+  margin-bottom: 10px;
+  align-self: center;
+}
+.task-heading{
+  color: #00306e;
+  font-size: 18px;
+  font-weight: 550;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 80%;
+  align-self: flex-start;
+}
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 35px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+  font-weight: 500;
+}
+.add-button {
+  align-self: center;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  cursor: pointer;
+}
+.date{
+  width: 50%;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.alltask-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+  height: 83vh;
+  width: 60vw;
+  overflow-y: scroll;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.tasks-heading{
+  color: #00306e;
+  font-size: 22px;
+  font-weight: 550;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 4px;
+  border: 1px solid #7b8794;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+.search-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+.tabs-list {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: -100px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-list {
+    margin-top: 48px;
+  }
+}
+.tasks-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+.priority-filter{
+  padding: 10px;
+  margin-bottom: -10px;
+  padding-left: 10px;
+}
